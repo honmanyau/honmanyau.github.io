@@ -73,5 +73,17 @@ a {
 }
 
 .footer {
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+}
+
+.footer > a {
+  transition: color 0.5s;
+}
+
+.footer > a:hover {
+  color: #1CE;
 }
