@@ -20,7 +20,7 @@ a {
 .grid {
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 32px;
   align-items: center;
 }
 
